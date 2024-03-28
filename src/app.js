@@ -1,5 +1,6 @@
 import express from "express";
 import conectaNaDatabase from "./config/dbConnect.js";
+import routes from "./routes/index.js";
 
 const connectDb = await conectaNaDatabase();
 
@@ -12,11 +13,12 @@ connectDb.once("open", () => {
 });
 
 const app = express();
-app.use(express.json());
+routes(app);
+// app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.status(200).send("Curso de Node.js");
-});
+// app.get("/", (req, res) => {
+//   res.status(200).send("Curso de Node.js");
+// });
 
 // app.get("/livros", async (req, res) => {
 //   const listaLivros = await livro.find({});
