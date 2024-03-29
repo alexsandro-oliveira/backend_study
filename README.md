@@ -7,3 +7,6 @@ Neste estudo foram abordados:
 - A organizar a estrutura do código de um projeto de API utilizando o padrão chamado controller;
 - A evoluir as funcionalidades da API organizando as chamadas da lib Mongoose em métodos separados em um controller;
 - A praticar a implementação do CRUD (Create, Read, Update e Delete) com as respostas HTTP e as rotas correspondentes.
+- criar funcionalidades de uma API, unindo diferentes entidades como livro e autor;
+- Como funciona o relacionamento em um banco de objetos como MongoDB utilizando o modelo de embedding e reference;
+- Como realizar buscas em API via parâmetros de query.
