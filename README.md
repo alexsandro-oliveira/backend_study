@@ -1,4 +1,11 @@
-Neste estudo foram abordados:
+Para este estudo foi utilizado:
+
+- Node-js
+- Express
+- MongoDB
+- Mongoose
+
+E os temas que foram abordados:
 
 - Como os bancos de dados atuam integrados a uma API, guardando os dados recebidos e processados pela API;
 - Quais são as principais diferenças entre tipos de bancos de dados SQL e NoSQL e alguns casos de uso de cada tipo de banco;
